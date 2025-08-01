@@ -126,6 +126,13 @@ namespace OOPDay4
             //Sealed C# Keyword [ Class - Method - Property ] 
             #endregion
 
+            #region Partial
+            //Partial 
+            //Employee employee = new Employee(); 
+            //employee.Name = "Test";
+            //employee.Id = 1; 
+            #endregion
+
 
 
         }
