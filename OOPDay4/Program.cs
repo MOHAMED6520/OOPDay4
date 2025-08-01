@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using OOPDay4.First_Project;
+using OOPDay4.Second_Project;
 
 namespace OOPDay4
 {
@@ -27,9 +28,6 @@ namespace OOPDay4
             //Duration D3 = new Duration(666);
             //Console.WriteLine(D3.ToString());
             #endregion
-
-
-            
 
             #region Project01 Q03
             //Duration D1 = new Duration() { Hours = 5, Minutes = 10 , Seconds =5 };
@@ -60,6 +58,13 @@ namespace OOPDay4
             //} 
             #endregion
 
+
+            #region Second Project
+            //Console.WriteLine(Maths.Add(5, 3));
+            //Console.WriteLine(Maths.Subtract(5, 3));
+            //Console.WriteLine(Maths.Multiply(5, 3));
+            //Console.WriteLine(Maths.Divide(5, 3)); 
+            #endregion
 
         }
     }
