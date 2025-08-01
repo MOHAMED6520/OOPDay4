@@ -16,12 +16,12 @@ namespace OOPDay4.Operator_Overloading
             return $"{Real} + {Imag}i";
         }
 
-        public static complex operator +(complex a, complex b) 
+        public static complex operator +(complex a, complex b)
         {
-            return new complex() 
+            return new complex()
             {
-                Real = (a?.Real ??0) +(b?.Real ?? 0) , 
-                Imag = (a?.Imag ??0) +(b?.Imag ?? 0) 
+                Real = (a?.Real ?? 0) + (b?.Real ?? 0),
+                Imag = (a?.Imag ?? 0) + (b?.Imag ?? 0)
             };
         }
 
@@ -32,6 +32,19 @@ namespace OOPDay4.Operator_Overloading
                 Real = (a?.Real ?? 0) - (b?.Real ?? 0),
                 Imag = (a?.Imag ?? 0) - (b?.Imag ?? 0)
             };
+
+        }
+
+        public static complex operator ++(complex c)
+        { 
+           c.Real++;
+            return c;
+        }
+
+        public static complex operator --(complex c)
+        {
+            c.Real--;
+            return c;
         }
 
     }

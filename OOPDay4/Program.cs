@@ -40,6 +40,15 @@ namespace OOPDay4
             //  C03 = C01 - C02;
             // Console.WriteLine(C03); 
             #endregion
+
+            #region Unary Operator
+            ////Unary Operator 
+            //complex C01 =new complex() { Real =5 , Imag =2 };
+            ////Console.WriteLine(C01++);
+            //Console.WriteLine(C01--); 
+            #endregion
+
+
         }
     }
 }
