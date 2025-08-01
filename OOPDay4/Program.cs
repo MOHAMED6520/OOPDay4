@@ -48,7 +48,6 @@ namespace OOPDay4
             //Console.WriteLine(C01--); 
             #endregion
 
-
             #region Comparison Operator
 
             // Comparison Operator
@@ -66,6 +65,17 @@ namespace OOPDay4
             #endregion
 
 
+            #region Casting Operator
+            //Casting Operator
+            //complex c01 = new complex() { Real = 1  , Imag = 2};
+
+            //string s = (string) c01;
+            //Console.WriteLine(s);
+
+            //int x =(int) c01;
+            //Console.WriteLine(x);
+            //int x = new complex() { Real = 1 ,Imag = 2}; 
+            #endregion
         }
     }
 }

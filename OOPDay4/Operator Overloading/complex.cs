@@ -84,5 +84,16 @@ namespace OOPDay4.Operator_Overloading
             return a.Real != b.Real || a.Imag != b.Imag;
         }
 
+
+        public static explicit operator string(complex a)
+        { 
+            return a.ToString();
+        }
+
+        public static implicit operator int(complex a)
+        {
+            return a.Real;
+        }
+
     }
 }
