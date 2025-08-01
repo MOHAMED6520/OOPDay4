@@ -1,4 +1,5 @@
 ﻿using OOPDay4.Acstraction;
+using OOPDay4.Mapping;
 using OOPDay4.Operator_Overloading;
 using System.Numerics;
 
@@ -64,7 +65,6 @@ namespace OOPDay4
             ////} 
             #endregion
 
-
             #region Casting Operator
             //Casting Operator
             //complex c01 = new complex() { Real = 1  , Imag = 2};
@@ -76,6 +76,22 @@ namespace OOPDay4
             //Console.WriteLine(x);
             //int x = new complex() { Real = 1 ,Imag = 2}; 
             #endregion
+
+            #region Mapping
+            //Mapping
+            //User user = new User();
+
+            //UserDto userDto = new UserDto() 
+            //{ 
+            //    Address = user.Address,
+            //    Email = user.Email,
+            //    PhoneNumber = user.PhoneNumber,
+            //    Name = user.Name
+            //}; 
+            #endregion
+
+
+
         }
     }
 }
