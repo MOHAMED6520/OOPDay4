@@ -1,6 +1,7 @@
 ﻿using OOPDay4.Acstraction;
 using OOPDay4.Mapping;
 using OOPDay4.Operator_Overloading;
+using OOPDay4.Static;
 using System.Numerics;
 
 namespace OOPDay4
@@ -90,7 +91,36 @@ namespace OOPDay4
             //}; 
             #endregion
 
+            #region static
+            //static
 
+            //Utilities U01 = new Utilities();
+            //Utilities U02 = new Utilities();
+            //Utilities U03 = new Utilities();
+            //Console.WriteLine(U01.CmToInch(254));
+            //Console.WriteLine(U02.CmToInch(254));
+            //Console.WriteLine(U03.CmToInch(254));
+
+
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.CmToInch(254));
+
+            //Utilities U01 = new Utilities();
+            //Utilities U02 = new Utilities();
+            //Utilities U03 = new Utilities();
+            //
+            //Console.WriteLine(U01.Pi);
+            //Console.WriteLine(U02.Pi);
+            //Console.WriteLine(U03.Pi);
+
+
+            //Console.WriteLine(Utilities.Pi);
+            //Console.WriteLine(Utilities.Pi);
+            //Console.WriteLine(Utilities.Pi);
+
+            //Utilities utilities = new Utilities(); 
+            #endregion
 
         }
     }
