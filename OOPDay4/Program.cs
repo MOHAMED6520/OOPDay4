@@ -122,6 +122,12 @@ namespace OOPDay4
             //Utilities utilities = new Utilities(); 
             #endregion
 
+            #region Sealed
+            //Sealed C# Keyword [ Class - Method - Property ] 
+            #endregion
+
+
+
         }
     }
 }
