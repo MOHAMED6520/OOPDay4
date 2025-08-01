@@ -49,6 +49,23 @@ namespace OOPDay4
             #endregion
 
 
+            #region Comparison Operator
+
+            // Comparison Operator
+            ////complex C01 = new complex() { Real = 5, Imag = 2 };
+            ////complex C02 = new complex() { Real = 3, Imag = 4 };
+
+            ////if (C01>=C02)
+            ////{
+            ////    Console.WriteLine("C01 Grater Than C02");
+            ////}
+            ////else
+            ////{
+            ////    Console.WriteLine("C01 Is Not Grater Than C02");
+            ////} 
+            #endregion
+
+
         }
     }
 }

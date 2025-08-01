@@ -47,5 +47,42 @@ namespace OOPDay4.Operator_Overloading
             return c;
         }
 
+        public static bool operator <(complex a, complex b)
+        { 
+        if (a.Real == b.Real)
+                return a.Imag < b.Imag;
+        return a.Real < b.Real;
+        }
+
+        public static bool operator >(complex a, complex b)
+        {
+            if (a.Real == b.Real)
+                return a.Imag > b.Imag;
+            return a.Real > b.Real;
+        }
+
+        public static bool operator <=(complex a, complex b)
+        {
+            if (a.Real == b.Real)
+                return a.Imag <= b.Imag;
+            return a.Real <= b.Real;
+        }
+
+        public static bool operator >=(complex a, complex b)
+        {
+            if (a.Real == b.Real)
+                return a.Imag >= b.Imag;
+            return a.Real >= b.Real;
+        }
+        public static bool operator ==(complex a, complex b)
+        {
+            return a.Real == b.Real && a.Imag == b.Imag;
+        }
+
+        public static bool operator !=(complex a, complex b)
+        {
+            return a.Real != b.Real || a.Imag != b.Imag;
+        }
+
     }
 }
